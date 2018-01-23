@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_account" android:id="@+id/mni1" android:title="Account" />
+    <item android:icon="@drawable/ic_feed" android:id="@+id/mni2" android:title="News Feed" />
+    <item android:icon="@drawable/ic_message" android:id="@+id/mni3" android:title="Messenger" />
+</menu>

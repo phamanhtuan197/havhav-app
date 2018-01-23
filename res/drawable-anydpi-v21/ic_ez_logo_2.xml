@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="24dp" android:width="24dp" android:viewportWidth="2500.0" android:viewportHeight="2500.0">
+    <path android:fillColor="@drawable/$ic_ez_logo_2__0" android:pathData="M1114.7,362.4l0,819.3l-768.8,0.6l-56.4,135.3l825.2,-0.6l0,892.7l-903.3,0l-56.4,135.3l1095,0l0,-1982.6z" android:strokeColor="#000000" android:strokeWidth="1.0" />
+    <path android:fillColor="#1c75bc" android:pathData="M1704.5,2129.5h15.3l-59.2,142.2h-12.9l49.9,-118.6h-0.4l-52.2,71.4l10.8,-71.4h-0.4l-54.7,118.6h-12.7l66.5,-142.2h15.1l-9.2,60.4L1704.5,2129.5z" />
+    <path android:fillColor="#1c75bc" android:pathData="M1715.7,2241.4l-23.5,33.1l-9.8,-5.1l77.9,-108.8h15.6l-18.3,108.8l-14.2,5.1l5.9,-33.1H1715.7zM1760.8,2177.3l-36.1,51.4h26.9L1760.8,2177.3z" />
+    <path android:fillColor="#1c75bc" android:pathData="M1831.5,2160.6h15.1l-4.7,93.6l0.7,-0.4l11.7,-28.8l28.4,-64.4h12.2l-49.1,111.1h-15.1l4.6,-93.6l-0.5,0.4l-11.7,29l-28.3,64.2h-12.2L1831.5,2160.6z" />
+    <path android:fillColor="#1c75bc" android:pathData="M1905.5,2241.4l-23.5,33.1l-9.8,-5.1l77.9,-108.8h15.6l-18.3,108.8l-14.2,5.1l5.9,-33.1H1905.5zM1950.5,2177.3l-36.1,51.4h26.9L1950.5,2177.3z" />
+    <path android:fillColor="#1c75bc" android:pathData="M2040.2,2261.5c-11,7.3 -24.8,12.2 -34.4,12.2c-27.8,0 -22.5,-30.3 -10.5,-57.6c11.9,-26.9 33.8,-57.4 60.9,-57.4c12.7,0 19.9,8.7 20.8,21.3l-13.7,7.9c-0.8,-9 -4.6,-15.8 -13.9,-15.8c-18.7,0 -34.1,27.5 -41.5,44.4c-7.6,17.3 -16.1,43.7 3,43.7c6.2,0 13.2,-1.9 20.2,-5.8l12.9,-29.2h-22.7l5.7,-12.8h34.9L2040.2,2261.5z" />
+    <path android:fillColor="#1c75bc" android:pathData="M2084.8,2258.9h13.3l37.7,-85.5h-13.3l5.7,-12.8h38.9l-5.7,12.8h-13.4l-37.7,85.5h13.4l-5.7,12.8h-38.9L2084.8,2258.9z" />
+    <path android:fillColor="#1c75bc" android:pathData="M2210.9,2160.6h15.1l-4.7,93.6l0.7,-0.4l11.7,-28.8l28.4,-64.4h12.2l-49.1,111.1h-15.1l4.6,-93.6l-0.5,0.4l-11.7,29l-28.3,64.2h-12.2L2210.9,2160.6z" />
+    <path android:fillColor="#1c75bc" android:pathData="M2324.8,2261.5c-11,7.3 -24.8,12.2 -34.4,12.2c-27.8,0 -22.5,-30.3 -10.5,-57.6c11.9,-26.9 33.8,-57.4 60.9,-57.4c12.7,0 19.9,8.7 20.8,21.3l-13.7,7.9c-0.8,-9 -4.6,-15.8 -13.9,-15.8c-18.7,0 -34.1,27.5 -41.5,44.4c-7.6,17.3 -16.1,43.7 3,43.7c6.2,0 13.2,-1.9 20.2,-5.8l12.9,-29.2h-22.7l5.7,-12.8h34.9L2324.8,2261.5z" />
+    <path android:fillColor="@drawable/$ic_ez_logo_2__1" android:pathData="M1593.1,2209.7h-104.7L2345,155H155l56.4,135.3h1934.9L1289.7,2345H2288.6l22.9,-54.9h-751.9C1559.6,2290.1 1571.7,2261 1593.1,2209.7z" android:strokeColor="#000000" android:strokeWidth="1.0" />
+</vector>

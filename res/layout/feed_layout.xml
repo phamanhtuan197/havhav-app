@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="#fafafa" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v7.widget.RecyclerView android:id="@+id/rvContent" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/LLbutton" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@+id/LLbutton" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:background="@drawable/button1" android:layout_width="UNKNOWN_DATA_0x7f0601af" android:layout_height="UNKNOWN_DATA_0x7f0601af" android:layout_margin="@dimen/_6sdp" />
+        <Button android:background="@drawable/button2" android:layout_width="UNKNOWN_DATA_0x7f0601af" android:layout_height="UNKNOWN_DATA_0x7f0601af" android:layout_margin="@dimen/_6sdp" />
+        <Button android:background="@drawable/button3" android:layout_width="UNKNOWN_DATA_0x7f0601af" android:layout_height="UNKNOWN_DATA_0x7f0601af" android:layout_margin="@dimen/_6sdp" />
+        <Button android:background="@drawable/button4" android:layout_width="UNKNOWN_DATA_0x7f0601af" android:layout_height="UNKNOWN_DATA_0x7f0601af" android:layout_margin="@dimen/_6sdp" />
+        <Button android:background="@drawable/button5" android:layout_width="UNKNOWN_DATA_0x7f0601af" android:layout_height="UNKNOWN_DATA_0x7f0601af" android:layout_margin="@dimen/_6sdp" />
+    </LinearLayout>
+</RelativeLayout>

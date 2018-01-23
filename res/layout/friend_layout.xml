@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent"
+    <RelativeLayout android:orientation="horizontal" android:id="@+id/rl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/_6sdp">
+        <de.hdodenhof.circleimageview.CircleImageView android:id="@+id/civ" android:layout_width="UNKNOWN_DATA_0x7f06022c" android:layout_height="UNKNOWN_DATA_0x7f06022c" android:src="@mipmap/test3" />
+        <TextView android:textColor="0x106000b" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/isOnline" android:background="@mipmap/noti" android:layout_width="UNKNOWN_DATA_0x7f060062" android:layout_height="UNKNOWN_DATA_0x7f060062" android:layout_marginLeft="@dimen/_2sdp" android:layout_alignLeft="@+id/civ3" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/_14sdp" android:textStyle="bold" android:id="@+id/tvnameFriend" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_20sdp" android:text="Ducvd" android:layout_toRightOf="@+id/rl" />
+    <TextView android:textSize="@dimen/_12sdp" android:id="@+id/tvcontent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Nice!!!!" android:layout_below="@+id/tvnameFriend" android:layout_alignLeft="@+id/tvnameFriend" />
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v7.widget.CardView android:background="@color/colorTransparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/_2sdp" android:cardCornerRadius="@dimen/_6sdp">
+        <RelativeLayout android:background="@drawable/round" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/ivImage" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@mipmap/test" android:scaleType="centerCrop" />
+            <ImageView android:background="@color/colortenpercent" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <TextView android:textSize="@dimen/_24sdp" android:textStyle="bold" android:textColor="0x106000b" android:id="@+id/tvName" android:paddingLeft="@dimen/_4sdp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Linh kun" android:layout_above="@+id/description" />
+            <TextView android:textSize="@dimen/_14sdp" android:textColor="0x106000b" android:id="@+id/description" android:paddingLeft="@dimen/_4sdp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="27yrs, Hanoi" android:layout_above="@+id/listpet" />
+            <LinearLayout android:orientation="horizontal" android:id="@+id/listpet" android:background="@drawable/roundbg" android:padding="@dimen/_6sdp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/_4sdp" android:layout_alignParentBottom="true">
+                <de.hdodenhof.circleimageview.CircleImageView android:layout_width="UNKNOWN_DATA_0x7f0601af" android:layout_height="UNKNOWN_DATA_0x7f0601af" android:src="@mipmap/dog" />
+                <de.hdodenhof.circleimageview.CircleImageView android:layout_width="UNKNOWN_DATA_0x7f0601af" android:layout_height="UNKNOWN_DATA_0x7f0601af" android:layout_marginLeft="6dp" android:src="@mipmap/rabit" />
+            </LinearLayout>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

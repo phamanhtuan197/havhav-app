@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="ERROR" ERROR:interpolator="@androidresources/FAST_OUT_LINEAR_IN" ERROR:duration="@integer/bottom_sheet_slide_duration">
+    <translate ERROR:fromYDelta="20%p" ERROR:toYDelta="0.0" />
+    <alpha ERROR:fromAlpha="0.0" ERROR:toAlpha="1.0" />
+</set>

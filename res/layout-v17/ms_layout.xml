@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:padding="@dimen/_6sdp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.design.widget.TextInputLayout android:id="@+id/tilSearch" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Search">
+        <android.support.design.widget.TextInputEditText android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@+id/llnewmatch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_6sdp" android:layout_below="@+id/tilSearch">
+        <TextView android:textSize="@dimen/_20sdp" android:textColor="@color/colorPrimaryDark" android:id="@+id/tvnewmatch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="New Match" />
+        <TextView android:textColor="0x106000b" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@mipmap/noti" android:layout_width="UNKNOWN_DATA_0x7f0600a5" android:layout_height="UNKNOWN_DATA_0x7f0600a5" android:layout_marginLeft="@dimen/_2sdp" android:text="3" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/llmatch" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/llnewmatch">
+        <RelativeLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/_6sdp"
+            <RelativeLayout android:id="@+id/rl1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <de.hdodenhof.circleimageview.CircleImageView android:id="@+id/civ1" android:layout_width="UNKNOWN_DATA_0x7f06022c" android:layout_height="UNKNOWN_DATA_0x7f06022c" android:src="@mipmap/test" />
+                <TextView android:textColor="0x106000b" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@mipmap/noti" android:layout_width="UNKNOWN_DATA_0x7f060062" android:layout_height="UNKNOWN_DATA_0x7f060062" android:layout_marginLeft="@dimen/_2sdp" android:layout_alignLeft="@+id/civ1" android:layout_centerVertical="true" android:layout_marginStart="@dimen/_52sdp" />
+            </RelativeLayout>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Linh kun" android:layout_below="@+id/rl1" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/_6sdp"
+            <RelativeLayout android:id="@+id/rl2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <de.hdodenhof.circleimageview.CircleImageView android:id="@+id/civ2" android:layout_width="UNKNOWN_DATA_0x7f06022c" android:layout_height="UNKNOWN_DATA_0x7f06022c" android:src="@mipmap/test2" />
+                <TextView android:textColor="0x106000b" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@mipmap/noti" android:layout_width="UNKNOWN_DATA_0x7f060062" android:layout_height="UNKNOWN_DATA_0x7f060062" android:layout_marginLeft="@dimen/_2sdp" android:layout_alignLeft="@+id/civ2" android:layout_centerVertical="true" android:layout_marginStart="@dimen/_52sdp" />
+            </RelativeLayout>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Giang" android:layout_below="@+id/rl2" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/_6sdp"
+            <RelativeLayout android:id="@+id/rl3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <de.hdodenhof.circleimageview.CircleImageView android:id="@+id/civ3" android:layout_width="UNKNOWN_DATA_0x7f06022c" android:layout_height="UNKNOWN_DATA_0x7f06022c" android:src="@mipmap/test3" />
+                <TextView android:textColor="0x106000b" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@mipmap/noti" android:layout_width="UNKNOWN_DATA_0x7f060062" android:layout_height="UNKNOWN_DATA_0x7f060062" android:layout_marginLeft="@dimen/_2sdp" android:layout_alignLeft="@+id/civ3" android:layout_centerVertical="true" android:layout_marginStart="@dimen/_52sdp" />
+            </RelativeLayout>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ducvd" android:layout_below="@+id/rl3" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@+id/llmessage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_6sdp" android:layout_below="@+id/llmatch">
+        <TextView android:textSize="@dimen/_20sdp" android:textColor="@color/colorPrimaryDark" android:id="@+id/tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Messenger" />
+        <TextView android:textColor="0x106000b" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@mipmap/noti" android:layout_width="UNKNOWN_DATA_0x7f0600a5" android:layout_height="UNKNOWN_DATA_0x7f0600a5" android:layout_marginLeft="@dimen/_2sdp" android:text="1" />
+    </LinearLayout>
+    <ListView android:id="@+id/lsvFriend" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/llmessage" />
+</RelativeLayout>
